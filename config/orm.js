@@ -2,8 +2,8 @@
 var connection = require("../config/connection.js");
 
 var orm = {
-    selectAll: function(tableInput, cb) {
-      var queryString = "SELECT * FROM " + tableInput + ";";
+    selectAll: function(tableName, cb) {
+      var queryString = "SELECT * FROM " + tableName + ";";
       connection.query(queryString, function(err, result) {
         if (err) {
           throw err;
