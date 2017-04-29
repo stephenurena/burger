@@ -33,4 +33,5 @@ pool.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
 // });
 
 // Export connection for our ORM to use.
-module.exports = connection;
+// module.exports = connection;
+module.exports = pool;
