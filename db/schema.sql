@@ -1,7 +1,6 @@
 ###Schema
 
-CREATE DATABASE `burgers_db`;
-USE `burgers_db`;
+USE `heroku_b2cac2b68edc9dc`;
 
 CREATE TABLE burgers
 (
